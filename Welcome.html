@@ -13,15 +13,12 @@
   <!-- Basic Page Needs
   ================================================== -->
   <meta charset="utf-8">
-  <title>Eventre - Event &amp; Conference Html5 Template</title>
+  <title>CTFM &amp; Conference 2023</title>
 
   <!-- Mobile Specific Metas
   ================================================== -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Event and Conference Html5 Template">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <meta name="author" content="Themefisher">
-  <meta name="generator" content="Themefisher Eventre HTML Template v1.0">
+
     
   <!-- theme meta -->
   <meta name="theme-name" content="eventre" />
@@ -41,7 +38,7 @@
   <link href="css/style.css" rel="stylesheet">
 
   <!-- FAVICON -->
-  <link href="images/favicon.png" rel="shortcut icon">
+  <link href="images/icon/CTFM.png" rel="shortcut icon">
 
 </head>
 
@@ -55,7 +52,7 @@
   <div class="container-fluid p-0">
     <!-- logo -->
     <a class="navbar-brand" href="index.html">
-      <img src="images/logo.png" alt="logo">
+      <img src="images/icon/CTFM-Logo.png" width="200px" height="auto" alt="logo">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,7 +74,7 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="about-us.html#Note">Welcome Message</a></li>
             <li><a class="dropdown-item" href="about-us.html#conference">About CTFM 2023</a></li>
-            <li><a class="dropdown-item" href="about-us.html#organising">Organising Committee</a></li>
+            <li><a class="dropdown-item" href="about-us.html#organisers">Organising Committee</a></li>
             <li><a class="dropdown-item" href="about-us.html#center">Ceramic Technology Group</a></li>
             <li><a class="dropdown-item" href="about-us.html#venue">Conference Venue</a></li>
           </ul>
@@ -97,7 +94,7 @@
             <li><a class="dropdown-item" href="Program.html">Conference Themes</a></li>
             <li><a class="dropdown-item" href="Program.html#schedule">Program Schedule</a></li>
             <li><a class="dropdown-item" href="Program.html#speaker">List of Speakers</a></li>
-            <li><a class="dropdown-item" href="Program.html">Social Program</a></li>
+            <li><a class="dropdown-item" href="Program.html#social">Social Program</a></li>
 
           </ul>
         </li>
@@ -108,7 +105,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Sponsors.html">Sponsors
+          <a class="nav-link" href="Sponsor.html">Sponsors
             <span>/</span>
           </a>
         </li>
@@ -119,10 +116,10 @@
           </a>
           <!-- Dropdown list -->
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="Welcome.html">Venue</a></li>
-            <li><a class="dropdown-item" href="Welcome.html">Travel</a></li>
-            <li><a class="dropdown-item" href="Welcome.html">Accomodation</a></li>
-            <li><a class="dropdown-item" href="Welcome.html">Contact us</a></li>
+            <li><a class="dropdown-item" href="Welcome.html#venue">Venue</a></li>
+            <li><a class="dropdown-item" href="Welcome.html#travel">Travel</a></li>
+            <li><a class="dropdown-item" href="Welcome.html#accomodation">Accomodation</a></li>
+            <li><a class="dropdown-item" href="Welcome.html#contact">Contact us</a></li>
 
           </ul>
         </li>
@@ -143,12 +140,12 @@
 =            Page Title            =
 =================================-->
 
-<section class="page-title bg-title overlay-dark">
+<section class="page-title bg-title overlay-lighter">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 text-center">
 				<div class="title">
-					<h3>Our Gallery</h3>
+					<h3>Registration</h3>
 				</div>
 			</div>
 		</div>
@@ -158,160 +155,89 @@
 <!--====  End of Page Title  ====-->
 
 
-<!--=============================
-=            Gallery            =
-==============================-->
 
-<section class="section gallery">
+
+<!--==============================
+=            Registratoini          =
+===============================-->
+
+<section class="section" id ="venue">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
-				<div class="controls">
-					<div class="btn-group btn-group-toggle d-block" data-toggle="buttons">
-						<label class="btn active">
-							<input type="radio" name="gallery-filter" value="all" checked="checked" />All
-						</label>
-						<label class="btn">
-							<input type="radio" name="gallery-filter" value="conference" />Conference
-						</label>
-						<label class="btn">
-							<input type="radio" name="gallery-filter" value="meeting" />Meeting
-						</label>
-						<label class="btn">
-							<input type="radio" name="gallery-filter" value="events" />Events
-						</label>
-						<label class="btn">
-							<input type="radio" name="gallery-filter" value="party" />Party
-						</label>
-						<label class="btn">
-							<input type="radio" name="gallery-filter" value="concert" />Concert
-						</label>
-					</div>
-				</div>
-				<div class="gallery-wrapper row">
-					<div class="gallery-item col-lg-4 col-md-6" data-groups="[&quot;meeting&quot;]">
-						<div class="image-block">
-							<div class="image">
-								<img src="images/gallery/gallery-one.jpg" alt="gallery-image" class="img-fluid">
-								<div class="primary-overlay">
-									<a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/gallery-popup-one.jpg"><i
-											class="fa fa-picture-o"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="gallery-item col-lg-4 col-md-6" data-groups="[&quot;party&quot;,&quot;events&quot;]">
-						<div class="image-block">
-							<div class="image">
-								<img src="images/gallery/gallery-two.jpg" alt="gallery-image" class="img-fluid">
-								<div class="primary-overlay">
-									<a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/gallery-popup-two.jpg"><i
-											class="fa fa-picture-o"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="gallery-item col-lg-4 col-md-6" data-groups="[&quot;meeting&quot;,&quot;party&quot;]">
-						<div class="image-block">
-							<div class="image">
-								<img src="images/gallery/gallery-three.jpg" alt="gallery-image" class="img-fluid">
-								<div class="primary-overlay">
-									<a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/gallery-popup-three.jpg"><i
-											class="fa fa-picture-o"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="gallery-item col-lg-4 col-md-6" data-groups="[&quot;meeting&quot;,&quot;concert&quot;]">
-						<div class="image-block">
-							<div class="image">
-								<img src="images/gallery/gallery-four.jpg" alt="gallery-image" class="img-fluid">
-								<div class="primary-overlay">
-									<a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/gallery-popup-four.jpg"><i
-											class="fa fa-picture-o"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="gallery-item col-lg-4 col-md-6" data-groups="[&quot;concert&quot;,&quot;party&quot;]">
-						<div class="image-block">
-							<div class="image">
-								<img src="images/gallery/gallery-five.jpg" alt="gallery-image" class="img-fluid">
-								<div class="primary-overlay">
-									<a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/gallery-popup-five.jpg"><i
-											class="fa fa-picture-o"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="gallery-item col-lg-4 col-md-6" data-groups="[&quot;events&quot;,&quot;conference&quot;]">
-						<div class="image-block">
-							<div class="image">
-								<img src="images/gallery/gallery-six.jpg" alt="gallery-image" class="img-fluid">
-								<div class="primary-overlay">
-									<a class="image-popup" data-effect="mfp-with-zoom" href="images/gallery/gallery-popup-six.jpg"><i
-											class="fa fa-picture-o"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
+				<div class="section-title">
+					<h3>Venue</span></h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusm tempor incididunt ut labore</p>
 				</div>
 			</div>
 		</div>
+
 	</div>
 </section>
 
-<!--====  End of Gallery  ====-->
+<!--====  End  ====-->
 
-<!--==============================================
-=            Call to Action Subscribe            =
-===============================================-->
+<!--==============================
+=            Registratoini          =
+===============================-->
 
-<section class="cta-subscribe bg-subscribe overlay-dark">
+<section class="section" id ="travel">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6 mr-auto">
-				<!-- Subscribe Content -->
-				<div class="content">
-					<h3>Subscribe to Our <span class="alternate">Newsletter</span></h3>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor</p>
+			<div class="col-12">
+				<div class="section-title">
+					<h3>Travel</span></h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusm tempor incididunt ut labore</p>
 				</div>
 			</div>
-			<div class="col-md-6 ml-auto align-self-center">
-				<!-- Subscription form -->
-				<form action="#" class="row">
-					<div class="col-lg-8 col-md-12">
-						<input type="email" class="form-control main white mb-lg-0" placeholder="Email">
-					</div>
-					<div class="col-lg-4 col-md-12">
-						<div class="subscribe-button">
-							<button class="btn btn-main-md">Subscribe</button>
-						</div>
-					</div>
-				</form>
+		</div>
+
+	</div>
+</section>
+
+<!--====  End  ====-->
+
+<!--==============================
+=            Registratoini          =
+===============================-->
+
+<section class="section" id ="accomodation">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="section-title">
+					<h3>Accomodation</span></h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusm tempor incididunt ut labore</p>
+				</div>
 			</div>
 		</div>
+
 	</div>
 </section>
 
-<!--====  End of Call to Action Subscribe  ====-->
 
-<!--================================
-=            Google Map            =
-=================================-->
-<section class="map">
-	<!-- Google Map -->
-	<div id="map" data-latitude="40.712776" data-longitude="-74.005974" data-marker="images/icon/marker.png" data-marker-name="Eventre"></div>
-	<div class="address-block">
-		<h4>Docklands Convention</h4>
-		<ul class="address-list p-0 m-0">
-			<li><i class="fa fa-home"></i><span>Street Address, Location, <br>City, Country.</span></li>
-			<li><i class="fa fa-phone"></i><span>[00] 000 000 000</span></li>
-		</ul>
-		<a href="#" class="btn btn-white-md">Get Direction</a>
+<!--==============================
+=            Registratoini          =
+===============================-->
+
+<section class="section" id ="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="section-title">
+					<h3>Contact Us</span></h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusm tempor incididunt ut labore</p>
+				</div>
+			</div>
+		</div>
+
 	</div>
 </section>
-<!--====  End of Google Map  ====-->
+
+<!--====  End  ====-->
+
+<!--====  End  ====-->
+
 
 <!--============================
 =            Footer            =
